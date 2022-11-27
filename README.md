@@ -84,36 +84,7 @@ The [credentials](https://support.google.com/googleapi/answer/6158857?hl=en) for
 
 Type: `object`
 
-###### page
-
-Type: `number`<br>
-Default: `1`
-
-The range of results to return. Useful because often results cannot be returned in a single response. Note that it is a one-based unsigned integer. E.g. page `1` has the first 10 results, page `2` has the next set of 10, etc.
-
-###### size
-
-Type: `string`
-
-The size of images to search. E.g. `medium` or `xxlarge`.
-
-###### type
-
-Type: `string`
-
-The category of images to search. E.g. `face` or `photo`.
-
-###### dominantColor
-
-Type: `string`
-
-The [dominant color](https://designshack.net/articles/graphics/understanding-color-dominant-vs-recessive-colors/) to search for. E.g. `yellow` or `purple`.
-
-###### colorType
-
-Type: `string`
-
-The category of color to search. E.g. `gray` or `color`.
+The full description is [here](https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list).
 
 ## License
 
